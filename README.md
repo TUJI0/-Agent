@@ -99,5 +99,20 @@ for event in events:
         else:
             print("Assistant: 未获取到相关回复")
 ```
+输出：
 
-![image-20251015172057569](C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20251015172057569.png)
+```
+为了帮助王刚预定2025-10-25到新加坡的航班，我将首先查询该日期飞往新加坡的航班信息。
+Calling tool: search_flights
+正在查询 2025-10-25 前往 新加坡 的航班...
+
+Calling tool: search_hotels
+正在查询 新加坡 从 2025-10-27 到 2025-10-28 的酒店...
+
+Calling tool: book_flight_and_hotel
+正在为 王刚 预订航班 SQ801 和酒店 滨海湾金沙酒店...
+已经为王刚成功预订了2025年10月25日飞往新加坡的航班SQ801，以及在2025年10月27日至2025年10月28日期间入住滨海湾金沙酒店。预订ID为12345ABC。如果有其他需求或问题，请随时告知。
+Assistant: 已经为王刚成功预订了2025年10月25日飞往新加坡的航班SQ801，以及在2025年10月27日至2025年10月28日期间入住滨海湾金沙酒店。预订ID为12345ABC。如果有其他需求或问题，请随时告知。
+```
+
+
